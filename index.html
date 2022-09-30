@@ -13,6 +13,10 @@
 </head>
 <body>
 
+    <audio id="au" src="audio/8-bit-arcade.mp3" controls preload autoplay loop>
+        tu navegador no soporta HTML5
+    </audio>
+    
     <section id="main-menu">
         <h1>Juego del ahorcado</h1>
         <h3>Puntaje maximo: <span class="maxed-points">0</span></h3>
@@ -113,5 +117,13 @@
     <script src="js/keyboard.js"></script>
     <script src="js/works.js"></script>
     <script src="js/script.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script>
+    $(document).ready(function() {
+    var audi=document.getElementById("au");
+    audi.play();
+    });
+    </script>
 </body>
 </html>

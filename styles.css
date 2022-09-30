@@ -5,12 +5,25 @@
     background: #000000;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    
+    
 }
 
 body{
     text-align: center;
     user-select: none;
 }
+
+#au{
+    position:absolute;
+    margin: 50px 0px 0px 600px;
+    z-index: 100;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #06af00;
+}
+
 
 #main-menu{
     position: relative;
@@ -23,10 +36,18 @@ body{
     color: #06af00;
 }
 
-#main-menu h3{
+#main-menu h3 {
     color: #06af00;
     font-weight: 500;
     padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#main-menu h3 .maxed-points{
+    color: #06af00;
+    font-weight: 500;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #main-menu span{
@@ -51,10 +72,11 @@ body{
     border: 1px solid #06af00;
     cursor: pointer;
     transition: 0.5s;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #main-menu .btn-start-game:hover{
-    background: #06af00;
+    background: #00ee0c;
     color: #FFFFFF;
     border: 1px solid #06af00;
     cursor: pointer;
@@ -73,6 +95,7 @@ body{
     border: 1px solid #363f45;
     cursor: pointer;
     transition: 0.5s;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #main-menu .btn-customize-game:hover{
@@ -115,19 +138,22 @@ body{
     font-size: 32px;
     font-weight: 500;
     color: #56fc09;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .alert-win p{
     background-color: transparent;
     padding: 0 0 15px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .alert-win span{
     background-color: transparent;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .alert-fail{
-    width: 250px;
+    width: 270px;
     margin: auto;
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(5px);
@@ -147,15 +173,18 @@ body{
     font-size: 32px;
     font-weight: 500;
     color: #cc0404;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .alert-fail p{
     background-color: transparent;
     padding: 0 0 15px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .alert-fail span{
     background-color: transparent;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #score-box h1{
@@ -169,10 +198,12 @@ body{
     padding: 10px;
     color: #06af00;
     font-weight: 500;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #score-box h3 .accumulated-points{
     font-weight: 500;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #hidden-word{
@@ -187,6 +218,7 @@ body{
     border-bottom: 5px solid #363f45;
     color: #363f45;
     font-weight: 500;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #hidden-word .hidde{
@@ -206,6 +238,7 @@ body{
     border: 1px solid #06af00;
     cursor: pointer;
     transition: 0.5s;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #btn-new-game:hover{
@@ -220,7 +253,7 @@ body{
     color: #363f45;
     font-size: 16px;
     font-weight: 500;
-    width: 100px;
+    width: 130px;
     height: 50px;
     border-radius: 10px;
     margin: 10px 5px;
@@ -228,6 +261,7 @@ body{
     border: 1px solid #363f45;
     cursor: pointer;
     transition: 0.5s;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #btn-desist:hover{
@@ -250,6 +284,7 @@ body{
     border: 1px solid #363f45;
     cursor: pointer;
     transition: 0.5s;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #category .btn-atras:hover{
@@ -276,6 +311,7 @@ body{
     color: #363f45;
     border: 1px solid #363f45;
     background: transparent;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #virtual-keyboard button:hover{
@@ -378,13 +414,14 @@ body{
 
 #add-words h1{
     font-size: 48px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Press Start 2P', cursive;
     color: #06af00;
 }
 
 #add-words h3{
     color: #06af00;
     font-weight: 500;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #add-words input{
@@ -561,5 +598,5 @@ footer img{
 }
 
 .logos{
-    width: 45px;
+    width: 55px;
 }
